@@ -7,9 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import jdk.jshell.spi.ExecutionControl;
-import jdk.jshell.spi.ExecutionControl.InternalException;
-
 public class Main {
   public static void main(String[] args)throws InterruptedException{
     AddTrarrifPlan();
@@ -30,7 +27,7 @@ public class Main {
        myAlldata.add(obj2);
        myAlldata.add(obj3);
       
-         for( int i = 0 ; i < myAlldata.size(); i++ )
+       for( int i = 0 ; i < myAlldata.size(); i++ )
        {
        
          WebDriver driver = new ChromeDriver();
